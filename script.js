@@ -26,7 +26,7 @@ $(document).ready(function() {
     });
 
     function setHeader(xhr) {
-        xhr.setRequestHeader("X-Mashape-Key", "XEmG41b3OumshAGz4MeTGVfhZNmdp1Cty6ajsnAKusfLZ0iZKC");
+        xhr.setRequestHeader("X-Mashape-Key", "KHGupidpzhmsh36EaoQo4KF3aOAZp1tjETKjsnz02A2Zu1IkZL");
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         xhr.setRequestHeader("Accept", "application/json");
       }
