@@ -1,0 +1,65 @@
+html { 
+  background: url(https://cdn.pixabay.com/photo/2017/08/07/22/11/california-2608433_1280.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+	background-color: transparent !important;
+}
+
+#container {
+	width: 50%;
+	background-color: rgba(235, 235, 235, 0.65);
+	margin: 200px auto 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+	  
+}
+
+#quote {
+	padding: 25px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 600;
+}
+
+#author {
+  text-align: right;
+	font-size: 1.3em;
+  font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 25px 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+	color: #5287dd;
+}
+
+.buttons {
+	background: rgba(240, 240, 240, 0.75);
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px 0;
+  border-radius: 0 0 8px 8px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#github, #tweet {
+	color: rgba(41, 41, 41, 0.51);
+}
+
+#github:hover, #tweet:hover {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+/* @media (max-width:800px) {
+	#container, .buttons {
+		width: 50%;
+	}
+} */
