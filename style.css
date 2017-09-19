@@ -58,8 +58,8 @@ body {
 	color: rgba(0, 0, 0, 0.75);
 }
 
-/* @media (max-width:800px) {
+@media (max-width:800px) {
 	#container, .buttons {
-		width: 50%;
+		width: 85%;
 	}
-} */
+}
